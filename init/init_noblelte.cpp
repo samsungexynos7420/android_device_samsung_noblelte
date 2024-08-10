@@ -60,12 +60,61 @@ void set_sim_info()
 void vendor_load_properties()
 {
     std::string bootloader = GetProperty("ro.bootloader", "");
-
-    property_override("ro.build.description", "nobleltejv-user 7.0 NRD90M N920CXXS5CRH3 release-keys");
-    set_ro_product_prop("device", "noblelte");
-    set_ro_build_prop("fingerprint", "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXS5CRH3:user/release-keys");
-    set_ro_product_prop("model", "SM-N920C");
-    set_ro_product_prop("name", "noblelte");
+    if (bootloader.find("N920C") == 0) {
+        property_override("ro.build.description", "nobleltejv-user 7.0 NRD90M N920CXXS5CRH3 release-keys");
+        set_ro_product_prop("device", "noblelte");
+        set_ro_build_prop("fingerprint", "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXS5CRH3:user/release-keys");
+        set_ro_product_prop("model", "SM-N920C");
+        set_ro_product_prop("name", "noblelte");
+    } else if (bootloader.find("N920K") == 0) {
+        property_override("ro.build.description", "nobleltektt-user 7.0 NRD90M N920KKKU2DVG1 release-keys");
+        set_ro_product_prop("device", "nobleltektt");
+        set_ro_build_prop("fingerprint", "samsung/nobleltektt/noblelte:7.0/NRD90M/N920KKKU2DVG1:user/release-keys");
+        set_ro_product_prop("model", "SM-N920K");
+        set_ro_product_prop("name", "nobleltektt");
+    } else if (bootloader.find("N920S") == 0) {
+        property_override("ro.build.description", "noblelteskt-user 7.0 NRD90M N920SKSU2DVG1 release-keys");
+        set_ro_product_prop("device", "noblelteskt");
+        set_ro_build_prop("fingerprint", "samsung/noblelteskt/noblelte:7.0/NRD90M/N920SKSU2DVG1:user/release-keys");
+        set_ro_product_prop("model", "SM-N920S");
+        set_ro_product_prop("name", "noblelteskt");
+    } else if (bootloader.find("N920L") == 0) {
+        property_override("ro.build.description", "nobleltelgt-user 7.0 NRD90M N920LKLU2DVG1 release-keys");
+        set_ro_product_prop("device", "nobleltelgt");
+        set_ro_build_prop("fingerprint", "samsung/nobleltelgt/noblelte:7.0/NRD90M/N920LKLU2DVG1:user/release-keys");
+        set_ro_product_prop("model", "SM-N920L");
+        set_ro_product_prop("name", "nobleltelgt");
+    } else if (bootloader.find("N920G") == 0) {
+        property_override("ro.build.description", "nobleltedd-user 7.0 NRD90M N920GUBU5CVGN release-keys");
+        set_ro_product_prop("device", "nobleltedd");
+        set_ro_build_prop("fingerprint", "samsung/nobleltedd/noblelte:7.0/NRD90M/N920GUBU5CVGN:user/release-keys");
+        set_ro_product_prop("model", "SM-N920G");
+        set_ro_product_prop("name", "nobleltedd");
+    } else if (bootloader.find("N920I") == 0) {
+        property_override("ro.build.description", "nobleltedv-user 7.0 NRD90M N920IDVU5CVG3 release-keys");
+        set_ro_product_prop("device", "nobleltedv");
+        set_ro_build_prop("fingerprint", "samsung/nobleltedv/noblelte:7.0/NRD90M/N920IDVU5CVG3:user/release-keys");
+        set_ro_product_prop("model", "SM-N920I");
+        set_ro_product_prop("name", "nobleltedv");
+    } else if (bootloader.find("N920W8") == 0) {
+        property_override("ro.build.description", "nobleltebmc-user 7.0 NRD90M N920W8VLU6CVG1 release-keys");
+        set_ro_product_prop("device", "nobleltebmc");
+        set_ro_build_prop("fingerprint", "samsung/nobleltebmc/noblelte:7.0/NRD90M/N920W8VLU6CVG1:user/release-keys");
+        set_ro_product_prop("model", "SM-N920W8");
+        set_ro_product_prop("name", "nobleltebmc");
+    } else if (bootloader.find("N920T") == 0) {
+        property_override("ro.build.description", "nobleltetmo-user 7.0 NRD90M  N920TUVU6EVG2 release-keys");
+        set_ro_product_prop("device", "nobleltetmo");
+        set_ro_build_prop("fingerprint", "samsung/nobleltetmo/noblelte:7.0/NRD90M/ N920TUVU6EVG2:user/release-keys");
+        set_ro_product_prop("model", "SM-N920T");
+        set_ro_product_prop("name", "nobleltetmo");
+    } else if (bootloader.find("N920P") == 0) {
+        property_override("ro.build.description", "nobleltespr-user 7.0 NRD90M N920PVPS3DRH1 release-keys");
+        set_ro_product_prop("device", "nobleltespr");
+        set_ro_build_prop("fingerprint", "samsung/nobleltespr/noblelte:7.0/NRD90M/N920PVPS3DRH1:user/release-keys");
+        set_ro_product_prop("model", "SM-N920P");
+        set_ro_product_prop("name", "nobleltespr");
+    }
     gsm_properties("9");
     set_sim_info();
 
