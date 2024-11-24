@@ -234,7 +234,6 @@ vendor/etc/wifi/bcmdhd_apsta.bin
 vendor/etc/wifi/bcmdhd_apsta.bin_a1
 vendor/etc/wifi/bcmdhd_apsta.bin_b1
 vendor/etc/wifi/bcmdhd_apsta.bin_blob
-vendor/etc/wifi/bcmdhd_clm.blob
 vendor/etc/wifi/bcmdhd_ibss.bin
 vendor/etc/wifi/bcmdhd_ibss.bin_a1
 vendor/etc/wifi/bcmdhd_ibss.bin_b1
