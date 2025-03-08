@@ -1,4 +1,14 @@
-# All unpinned blobs are from zerofltexx stock (N)
+# All unpinned blobs are from noblelte stock (N)
+
+# audio
+etc/firmware/clearwaterc-dsp5-dsm.wmfw
+etc/firmware/clearwaterc-dsp3-tx-wb.wmfw
+etc/firmware/clearwaterc-dsp3-tx-swb.wmfw
+etc/firmware/clearwaterc-dsp3-tx-nb.wmfw
+etc/firmware/clearwaterc-dsp2-tx-wb.wmfw
+etc/firmware/clearwaterc-dsp2-tx-swb.wmfw
+etc/firmware/clearwaterc-dsp2-tx-nb.wmfw
+etc/firmware/clearwater-dsp3-tx-swb-interview.bin
 
 # Camera Firmware files
 vendor/firmware/companion_2p2_master_setfile.bin
@@ -66,6 +76,10 @@ vendor/lib/libMcClient.so
 vendor/lib64/libMcClient.so
 vendor/lib/libMcRegistry.so
 vendor/lib64/libMcRegistry.so
+
+# Sensors
+lib/hw/sensors.universal7420.so:vendor/lib/hw/sensors.universal7420.so
+lib64/hw/sensors.universal7420.so:vendor/lib64/hw/sensors.universal7420.so
 
 # NXP Noise Cancelling
 vendor/etc/nxp/AzControlParams_SPEAKER.txt
