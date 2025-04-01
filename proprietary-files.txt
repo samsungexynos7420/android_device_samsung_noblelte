@@ -8,7 +8,9 @@ etc/firmware/clearwaterc-dsp3-tx-nb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-wb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-swb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-nb.wmfw
-etc/firmware/clearwater-dsp3-tx-swb-interview.bin
+etc/firmware/clearwater-dsp3-tx-swb-interview.bin0
+etc/firmware/audience-es804-fw.bin
+etc/firmware/audience-es804-data.bin
 
 # Camera Firmware files
 vendor/firmware/companion_2p2_master_setfile.bin
