@@ -1,6 +1,7 @@
 # All unpinned blobs are from noblelte stock (N)
 
 # audio
+etc/firmware/clearwater-dsp3-tx-swb-interview.bin
 etc/firmware/clearwaterc-dsp5-dsm.wmfw
 etc/firmware/clearwaterc-dsp3-tx-wb.wmfw
 etc/firmware/clearwaterc-dsp3-tx-swb.wmfw
@@ -8,7 +9,10 @@ etc/firmware/clearwaterc-dsp3-tx-nb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-wb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-swb.wmfw
 etc/firmware/clearwaterc-dsp2-tx-nb.wmfw
-etc/firmware/clearwater-dsp3-tx-swb-interview.bin0
+etc/firmware/clearwaterc-dsp1-trace.wmfw
+etc/firmware/clearwaterc-dsp4-rx-anc-nb.wmfw
+etc/firmware/clearwaterc-dsp4-rx-anc-wb.wmfw
+etc/firmware/clearwaterc-dsp6-ez2-control.wmfw
 etc/firmware/audience-es804-fw.bin
 etc/firmware/audience-es804-data.bin
 
