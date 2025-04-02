@@ -83,6 +83,9 @@ vendor/lib64/libMcClient.so
 vendor/lib/libMcRegistry.so
 vendor/lib64/libMcRegistry.so
 
+# Sensors LHD 
+system/etc/lhd.conf:vendor/etc/sensor/lhd.conf
+
 # Sensors HAL
 lib/hw/sensorhubs.universal7420.so:vendor/lib/hw/sensorhubs.universal7420.so
 lib64/hw/sensorhubs.universal7420.so:vendor/lib64/hw/sensorhubs.universal7420.so
