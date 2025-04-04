@@ -248,6 +248,7 @@ vendor/lib/libLifevibes_lvverx.so:vendor/lib/soundfx/libLifevibes_lvverx.so
 vendor/lib/libLifevibes_lvvetx.so:vendor/lib/soundfx/libLifevibes_lvvetx.so
 
 # Wi-Fi
+vendor/etc/init/init.wifi.rc
 vendor/etc/wifi/.clminfo
 vendor/etc/wifi/bcmdhd_apsta.bin
 vendor/etc/wifi/bcmdhd_apsta.bin_a1
