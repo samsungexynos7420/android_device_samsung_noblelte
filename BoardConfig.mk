@@ -49,5 +49,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# WiFi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # inherit from the proprietary version
 include vendor/samsung/noblelte/BoardConfigVendor.mk
