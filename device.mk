@@ -42,7 +42,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-	TetheringConfigOverlay
+	TetheringConfigOverlay \
+	WifiOverlay
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
