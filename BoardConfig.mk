@@ -26,7 +26,7 @@ include device/samsung/universal7420-common/BoardConfigCommon.mk
 DEVICE_PATH := device/samsung/noblelte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt,nobleltetmo,nobleltebmc
+TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt,nobleltetmo,nobleltebmc,nobleltecan
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
